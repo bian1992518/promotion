@@ -1,0 +1,45 @@
+<% include ../common/header.ejs %>
+<body id="cq">
+	<nav>
+		<img src="/images/cq-nav.jpg" alt="banner">
+	</nav>
+	<section>
+		<div class="select-area">
+			<div class="area">
+				<select class="provice">
+					<option value="">选择城市</option>
+					<option value="1">杭州</option>
+					<option value="4">上海</option>
+					<option value="2">北京</option>
+					<option value="3">广州</option>
+				</select>
+				<select class="city">
+					<option value="">选择地区</option>
+				</select>
+			</div>
+			<select class="car-type">
+				<option value="">选择车型</option>
+			</select>
+		</div>
+		<div class="detail">
+			<h2>选择车价</h2>
+			<div class="price-range">
+				<span onclick="_hmt.push(['_trackEvent', '0-20W', 'click']);" class="active">0-20W</span>
+				<span onclick="_hmt.push(['_trackEvent', '20-40W', 'click']);">20-40W</span>
+				<span onclick="_hmt.push(['_trackEvent', '40-100W', 'click']);">40-100W</span>
+			</div>
+		</div>
+		<p class="btn-buy" onclick="_hmt.push(['_trackEvent', '充值', 'click']);">充值200元 (其中158元购买补漆)</p>
+	</section>
+	<div class="tip">
+		<p>充值则视为购买单面车漆修复,</p>
+		<p>余额42元在车保卡中查看，全场商品都可购买哦!</p>
+	</div>
+	<div class="success">
+		<p>补漆优惠码 294576 已短信发送给您。 下载注册后，购买补漆时系统将自动为您账户匹配对应优惠码，快去下载车蚂蚁app使用优惠吧!</p>
+		<a class="download" href="http://a.app.qq.com/o/simple.jsp?pkgname=com.chemayi.manager&g_f=991653">下载车蚂蚁APP</a>
+	</div>
+	<div class="mask"></div>
+	<script src="/js/module/cq.bundle.js"></script>
+	<% include ../common/footer.ejs %>
+
